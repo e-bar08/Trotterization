@@ -1,4 +1,4 @@
-"""Study runners, summaries, and export helpers for the Physics 765 project."""
+"""Study runners, summaries, and export helpers."""
 
 from __future__ import annotations
 
