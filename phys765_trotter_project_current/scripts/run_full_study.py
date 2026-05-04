@@ -20,8 +20,10 @@ from src.analysis_utils import (
     build_rule_comparison_table,
     export_dataframe,
     rows_to_dataframe,
+    run_ordering_comparison,
     run_random_instance_study,
     run_theta_sweep_for_family,
+    run_validation_eps_sweep,
     sweep_summary,
 )
 from src.hamiltonians import (
@@ -35,10 +37,13 @@ from src.plotting_utils import (
     plot_error_curves,
     plot_family_boxplot,
     plot_largeN_scaling,
+    plot_ordering_comparison,
     plot_random_instance_variation,
     plot_resource_vs_delta,
     plot_rstar_vs_delta,
+    plot_rstar_vs_energy_variance,
     plot_rule_comparison,
+    plot_validation_eps_sweep,
     save_figure,
 )
 from src.resource_estimation import estimate_step_resources, export_stim_skeleton
@@ -64,6 +69,8 @@ def profile_params(profile: str) -> dict:
             "local_J": 1.0,
             "local_h": 0.7,
             "seed": 0,
+            "validation_eps_values": [1e-2, 1e-3, 1e-4],
+            "num_ordering_trials": 2,
         }
     if profile == "paper":
         return {
@@ -82,6 +89,8 @@ def profile_params(profile: str) -> dict:
             "local_J": 1.0,
             "local_h": 0.7,
             "seed": 0,
+            "validation_eps_values": [1e-2, 1e-3, 1e-4],
+            "num_ordering_trials": 2,
         }
     raise ValueError("profile must be 'quick' or 'paper'")
 
@@ -218,6 +227,39 @@ def main() -> None:
     export_dataframe(correlation_df, table_dir / "correlation_summary.csv")
     export_dataframe(rule_comparison_df, table_dir / "rule_comparison.csv")
 
+    # --- Epsilon sweep validation ---
+    families_data = [
+        ("structured dipolar", structured_terms, structured_H),
+        ("random two-local", random_terms, random_H),
+        ("local shifted TFIM", local_terms, local_H),
+    ]
+    validation_df = run_validation_eps_sweep(
+        families=families_data,
+        N=N,
+        t=t,
+        eps_values=cfg["validation_eps_values"],
+        r_max=r_max,
+        num_thetas=num_thetas,
+        order=order,
+        method=method,
+    )
+    export_dataframe(validation_df, table_dir / "validation_eps_sweep.csv")
+
+    # --- Ordering comparison (structured dipolar only) ---
+    ordering_df = run_ordering_comparison(
+        terms=structured_terms,
+        H=structured_H,
+        N=N,
+        t=t,
+        eps=eps,
+        r_max=r_max,
+        num_thetas=num_thetas,
+        num_random_orderings=cfg["num_ordering_trials"],
+        seed=cfg["seed"],
+        method=method,
+    )
+    export_dataframe(ordering_df, table_dir / "ordering_comparison.csv")
+
     theta_values = [0.0, np.pi / 4.0, np.pi / 2.0, 3.0 * np.pi / 4.0, np.pi]
     r_values = list(range(1, cfg["r_curve_max"] + 1))
     structured_curves = build_error_curve_rows(structured_terms, structured_H, theta_values, N, t, r_values, "structured dipolar", order=order, method=method)
@@ -264,6 +306,18 @@ def main() -> None:
     save_figure(rule_fig, fig_dir / "rule_comparison.png")
     plt.close(rule_fig)
 
+    fig, _ = plot_rstar_vs_energy_variance(exact_df)
+    save_figure(fig, fig_dir / "rstar_vs_variance.png")
+    plt.close(fig)
+
+    fig, _ = plot_validation_eps_sweep(validation_df)
+    save_figure(fig, fig_dir / "validation_eps_sweep.png")
+    plt.close(fig)
+
+    fig, _ = plot_ordering_comparison(ordering_df)
+    save_figure(fig, fig_dir / "ordering_comparison.png")
+    plt.close(fig)
+
     scaling_rows = []
     for N_scale in cfg["scaling_N_values"]:
         dip_terms = dipolar_terms_xxyy_m2zz(N_scale, J0=cfg["J0"], alpha=cfg["alpha"])
@@ -307,6 +361,8 @@ def main() -> None:
         "num_exact_rows": len(exact_df),
         "num_all_rows": len(all_state_df),
         "num_resolved_exact_rows": int(exact_df["resolved"].fillna(False).sum()),
+        "num_validation_eps_rows": len(validation_df),
+        "num_ordering_rows": len(ordering_df),
         "figures": len(list(fig_dir.glob("*.png"))),
         "tables": len(list(table_dir.glob("*.csv"))),
         "structured_stim_exported": structured_stim_path is not None,
