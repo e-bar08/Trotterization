@@ -140,7 +140,7 @@ The initial states are product states parameterized by an angle theta, sweeping 
 
 ---
 
-## limitations
+## Limitations
 
 - Exact fidelity results are only valid at small system sizes where full state-vector simulation is feasible.
 - States that don't reach the target within the scan range are flagged as unresolved (`resolved=False`). Summary tables report both resolved-only means and a lower-bound mean that counts unresolved states as contributing the maximum step count.
