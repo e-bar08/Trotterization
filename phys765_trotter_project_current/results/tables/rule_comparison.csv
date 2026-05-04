@@ -1,0 +1,64 @@
+family,instance_id,theta,Delta,resolved,r_star,r_value_for_plot,worst_case_rule_r,worst_case_rule_status,low_energy_rule_r,low_energy_rule_status,empirical_rule_display_r
+local shifted TFIM,local_0,0.0,2.1,True,17,17,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,17
+local shifted TFIM,local_0,0.15707963267948966,1.8326669780465725,True,18,18,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,18
+local shifted TFIM,local_0,0.3141592653589793,1.6897930688439273,True,19,19,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,19
+local shifted TFIM,local_0,0.47123889803846897,1.6618883851813593,True,19,19,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,19
+local shifted TFIM,local_0,0.6283185307179586,1.7293797272171223,True,18,18,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,18
+local shifted TFIM,local_0,0.7853981633974483,1.865075759508251,True,18,18,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,18
+local shifted TFIM,local_0,0.9424777960769379,2.0373355547812957,True,17,17,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,17
+local shifted TFIM,local_0,1.0995574287564276,2.213617864570019,True,16,16,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,16
+local shifted TFIM,local_0,1.2566370614359172,2.3640525587488623,True,16,16,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,16
+local shifted TFIM,local_0,1.413716694115407,2.464675130119153,True,16,16,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,16
+local shifted TFIM,local_0,1.5707963267948966,2.5,True,15,15,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,15
+local shifted TFIM,local_0,1.7278759594743862,2.4646751301191534,True,16,16,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,16
+local shifted TFIM,local_0,1.8849555921538759,2.3640525587488623,True,16,16,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,16
+local shifted TFIM,local_0,2.0420352248333655,2.2136178645700193,True,16,16,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,16
+local shifted TFIM,local_0,2.199114857512855,2.037335554781296,True,17,17,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,17
+local shifted TFIM,local_0,2.356194490192345,1.865075759508251,True,18,18,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,18
+local shifted TFIM,local_0,2.5132741228718345,1.7293797272171219,True,18,18,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,18
+local shifted TFIM,local_0,2.670353755551324,1.6618883851813602,True,19,19,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,19
+local shifted TFIM,local_0,2.827433388230814,1.6897930688439269,True,19,19,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,19
+local shifted TFIM,local_0,2.9845130209103035,1.8326669780465734,True,18,18,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,18
+local shifted TFIM,local_0,3.141592653589793,2.1,True,17,17,1751,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,17
+random two-local,random_0,0.0,-0.6526363125590153,True,151,151,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,151
+random two-local,random_0,0.15707963267948966,-0.17185170324688076,True,156,156,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,156
+random two-local,random_0,0.3141592653589793,0.37578310978427343,True,161,161,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,161
+random two-local,random_0,0.47123889803846897,0.9366618154388529,True,162,162,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,162
+random two-local,random_0,0.6283185307179586,1.4558816981356573,True,161,161,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,161
+random two-local,random_0,0.7853981633974483,1.8826178981386819,True,157,157,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,157
+random two-local,random_0,0.9424777960769379,2.175098502945692,True,151,151,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,151
+random two-local,random_0,1.0995574287564276,2.3046934731259774,True,144,144,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,144
+random two-local,random_0,1.2566370614359172,2.258717150057039,True,137,137,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,137
+random two-local,random_0,1.413716694115407,2.0416700165767456,True,131,131,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,131
+random two-local,random_0,1.5707963267948966,1.67479815836645,True,127,127,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,127
+random two-local,random_0,1.7278759594743862,1.1940135490543153,True,125,125,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,125
+random two-local,random_0,1.8849555921538759,0.646378736023161,True,125,125,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,125
+random two-local,random_0,2.0420352248333655,0.08550003036858123,True,126,126,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,126
+random two-local,random_0,2.199114857512855,-0.43371985232822363,True,126,126,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,126
+random two-local,random_0,2.356194490192345,-0.8604560523312471,True,126,126,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,126
+random two-local,random_0,2.5132741228718345,-1.1529366571382569,True,125,125,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,125
+random two-local,random_0,2.670353755551324,-1.282531627318542,True,123,123,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,123
+random two-local,random_0,2.827433388230814,-1.2365553042496056,True,122,122,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,122
+random two-local,random_0,2.9845130209103035,-1.0195081707693117,True,122,122,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,122
+random two-local,random_0,3.141592653589793,-0.6526363125590156,True,125,125,184566,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,125
+structured dipolar,structured_0,0.0,-11.300722222222223,True,1,1,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,1
+structured dipolar,structured_0,0.15707963267948966,-10.885899686769974,True,63,63,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,63
+structured dipolar,structured_0,0.3141592653589793,-9.68203780042186,True,121,121,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,121
+structured dipolar,structured_0,0.47123889803846897,-7.806978952412587,True,171,171,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,171
+structured dipolar,structured_0,0.6283185307179586,-5.444266967088519,True,210,210,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,210
+structured dipolar,structured_0,0.7853981633974483,-2.8251805555555562,True,236,236,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,236
+structured dipolar,structured_0,0.9424777960769379,-0.20609414402259008,True,250,250,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,250
+structured dipolar,structured_0,1.0995574287564276,2.1566178413014763,True,253,253,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,253
+structured dipolar,structured_0,1.2566370614359172,4.031676689310745,True,249,249,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,249
+structured dipolar,structured_0,1.413716694115407,5.2355385756588655,True,243,243,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,243
+structured dipolar,structured_0,1.5707963267948966,5.650361111111111,True,241,241,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,241
+structured dipolar,structured_0,1.7278759594743862,5.2355385756588655,True,243,243,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,243
+structured dipolar,structured_0,1.8849555921538759,4.0316766893107445,True,249,249,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,249
+structured dipolar,structured_0,2.0420352248333655,2.1566178413014803,True,253,253,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,253
+structured dipolar,structured_0,2.199114857512855,-0.20609414402258752,True,250,250,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,250
+structured dipolar,structured_0,2.356194490192345,-2.825180555555554,True,236,236,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,236
+structured dipolar,structured_0,2.5132741228718345,-5.44426696708852,True,210,210,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,210
+structured dipolar,structured_0,2.670353755551324,-7.806978952412587,True,171,171,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,171
+structured dipolar,structured_0,2.827433388230814,-9.682037800421861,True,121,121,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,121
+structured dipolar,structured_0,2.9845130209103035,-10.885899686769976,True,63,63,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,63
+structured dipolar,structured_0,3.141592653589793,-11.300722222222223,True,1,1,63114,proxy_not_certified_for_fidelity,,missing_theorem_formula_or_constants,1

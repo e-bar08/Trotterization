@@ -1,0 +1,10 @@
+eps,family,num_states,num_resolved,num_unresolved,mean_r_star_resolved,mean_r_star_lower_bound
+10.0,structured dipolar,21,21,0,1.0,1.0
+10.0,random two-local,21,21,0,1.0,1.0
+10.0,local shifted TFIM,21,21,0,1.0,1.0
+0.01,structured dipolar,21,21,0,57.80952380952381,57.80952380952381
+0.01,random two-local,21,21,0,43.76190476190476,43.76190476190476
+0.01,local shifted TFIM,21,21,0,5.666666666666667,5.666666666666667
+0.001,structured dipolar,21,21,0,182.61904761904762,182.61904761904762
+0.001,random two-local,21,21,0,137.28571428571428,137.28571428571428
+0.001,local shifted TFIM,21,21,0,17.285714285714285,17.285714285714285

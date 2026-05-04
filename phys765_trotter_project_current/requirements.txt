@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+matplotlib
+jupyter
+cirq-core
+stim
+pyLIQTR

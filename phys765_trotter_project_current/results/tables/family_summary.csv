@@ -1,0 +1,4 @@
+family,num_instances,total_states,total_resolved,total_unresolved,mean_resolution_rate,mean_of_instance_mean_r_star,median_of_instance_mean_r_star,mean_num_nonidentity_terms,mean_num_two_site_terms,overall_resolution_rate
+local shifted TFIM,1,21,21,0,1.0,17.285714285714285,17.285714285714285,11.0,5.0,1.0
+random two-local,16,336,336,0,1.0,133.17857142857142,134.14285714285714,45.0,45.0,1.0
+structured dipolar,1,21,21,0,1.0,182.61904761904762,182.61904761904762,45.0,45.0,1.0

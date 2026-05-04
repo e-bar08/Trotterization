@@ -1,0 +1,16 @@
+resource_model,step_dt,identity_term_count_per_step,single_qubit_clifford_count_per_step,cnot_count_per_step,rotation_gate_count_per_step,t_count_estimate_per_step,sequential_layer_proxy_per_step,resource_has_stim,resource_has_pyliqtr,stim_instruction_count_clifford_skeleton_per_step,stim_num_qubits,stim_h,stim_cx,stim_s_dag,stim_s,stim_num_instructions,family,N,reference_r,t
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,0,72,36,18,1830,126,True,True,78,4,36,18,12.0,12.0,78,structured dipolar,4,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,0,78,36,18,1810,132,True,True,84,4,40,18,13.0,13.0,84,random two-local,4,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,7,8,6,7,708,21,True,True,2,4,1,1,,,2,local shifted TFIM,4,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,0,180,90,45,4546,315,True,True,195,6,90,45,30.0,30.0,195,structured dipolar,6,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,0,196,90,45,4530,331,True,True,210,6,97,45,34.0,34.0,210,random two-local,6,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,11,12,10,11,1112,33,True,True,2,6,1,1,,,2,local shifted TFIM,6,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,0,336,168,84,8438,588,True,True,364,8,168,84,56.0,56.0,364,structured dipolar,8,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,0,314,168,84,8482,566,True,True,349,8,159,84,53.0,53.0,349,random two-local,8,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,15,16,14,15,1516,45,True,True,2,8,1,1,,,2,local shifted TFIM,8,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,0,540,270,135,13518,945,True,True,585,10,270,135,90.0,90.0,585,structured dipolar,10,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,0,570,270,135,13642,975,True,True,612,10,289,135,94.0,94.0,612,random two-local,10,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,19,20,18,19,1920,57,True,True,2,10,1,1,,,2,local shifted TFIM,10,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,0,792,396,198,19814,1386,True,True,858,12,396,198,132.0,132.0,858,structured dipolar,12,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,0,768,396,198,19994,1362,True,True,837,12,389,196,126.0,126.0,837,random two-local,12,48,1.0
+basis_change_plus_parity_cnot_plus_synthesized_rz,0.020833333333333332,23,24,22,23,2324,69,True,True,2,12,1,1,,,2,local shifted TFIM,12,48,1.0
